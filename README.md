@@ -49,7 +49,7 @@ DB_HOST = YOUR_DB_HOST_POSTGRES (127.0.0.1 IF YOU'RE USING LOCALHOST)
 DB_PORT = 5432
 ```
 
-### 4) Configure the Secret Key :
+### 5) Configure the Secret Key :
 - in .env file define the variable:
 ```
 SECRET_KEY = YOUR_DJANGO_SECRET_KEY
