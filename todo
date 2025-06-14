@@ -1,0 +1,6 @@
+Falta implementar:
+- Depois de fazer login ele não vai para a página principal => FEITO
+- Sistema de logout => FEITO
+- Validações nos formulários de Cadastro => FEITO
+- Implementar sistemas de padrões (patterns) nos HTML (só puxar o HTML que precisa)
+- Implementar sistema de senha incorreta => FEITO

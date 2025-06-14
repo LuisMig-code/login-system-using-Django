@@ -1,0 +1,33 @@
+/* Configuração personalizada da paleta de cores */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-navy-900: #001f3f;
+    }
+}
+
+/* Personalização adicional se necessário */
+.bg-navy-900 {
+    background-color: var(--color-navy-900);
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.alert-user {
+    animation: slideIn 1s ease-out forwards;
+}
+
+#tarja-user {
+    display: None;
+}
+
+.field-empty {
+    border: 1px solid red !important;
+    box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.1);
+}
