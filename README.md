@@ -19,14 +19,6 @@ A simple login system using Django and PostgreSQL. Login , Register and Profile 
 - Postgres running locally or access to a remote cluster
 - pip package manager
 
-## Environment variables (.ENV):
-SECRET_KEY = YOUR_DJANGO_SERCRET_KEY
-DB_NAME = YOUR_DB_NAME_POSTGRES
-DB_USER = YOUR_DB_USER_POSTGRES
-DB_PASSWORD = YOUR_DB_PASSWORD_POSTGRES
-DB_HOST = YOUR_DB_HOST_POSTGRES (127.0.0.1 IF YOU'RE USING LOCALHOST)
-DB_PORT = 5432
-
 ## Environment configuration
 ### 1) Clone the repository:
 ```bash
